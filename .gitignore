@@ -26,3 +26,7 @@ _testmain.go
 .DS_Store
 .hugo_build.lock
 resources/_gen/
+content/posts/.obsidian/app.json
+content/posts/.obsidian/appearance.json
+content/posts/.obsidian/core-plugins.json
+content/posts/.obsidian/workspace.json
