@@ -41,6 +41,8 @@ Before starting, make sure you have:
 
 ## Setup
 
+[Watch on YouTube](https://www.youtube.com/watch?v=v5Th1oN3I5o)
+
 ### Create a Discord Bot
 #### Step 1: Create a Discord Application
 1. Go to the [Discord Developer Portal](https://discord.com/developers/applications).
@@ -57,10 +59,11 @@ Before starting, make sure you have:
    - A confirmation popup will appear. Click **"Yes, do it!"** to confirm.
 3. Your bot is now created, and you'll see some settings for your bot.
 
-#### Step 3: Customize the Bot Settings (Optional)
+#### Step 3: Customize the Bot Settings
 1. **Bot Icon**: You can upload an avatar for your bot by clicking on the bot icon image.
 2. **Username**: By default, the bot's username will match the application name. You can change this by clicking the name.
 3. **Public Bot**: You can control whether other people can invite your bot to their servers by toggling the "Public Bot" option.
+4. **Intents**: Enable the toggles for **"Presence Intent"** and **"Message Content Intent"**.
 
 #### Step 4: Collect the Bot Token
 1. In the **"Bot"** section of your application, you'll see a section labeled **"Token"**.
@@ -114,12 +117,12 @@ services:
     restart: unless-stopped
     volumes:
       - /path/to/podcasts/directory:/blog2pod/completed
-    image: tylerplesetz/blog2pod:oai
+    image: tylerplesetz/blog2pod:oai # TAG IS IMPORTANT
 
   b2pserve:
     container_name: b2pserve
     environment:
-      - BASEURL=<url>
+      - BASEURL=<url> # Trailing "/" is required
       - POD_TITLE=blog2pod
       - POD_DESCRIPTION="AI generated audio for articles that I don't have time to read ..."
       - POD_IMAGE=https://i.imgur.com/y2WVeWh.png
