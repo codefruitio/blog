@@ -1,16 +1,14 @@
 ---
 title: Announcing Blog2pod
 date: 2024-10-24T19:12:57-05:00
-draft: true
-author:
-  - Tyler Plesetz
+author: ["Tyler Plesetz"]
 description: Setup guide for blog2pod
 summary: Setup guide for blog2pod
-tags:
-  - markdown
-  - code
-categories:
-  - guides
+tags: [markdown, code]
+categories: [guides]
+ShowToc: true
+TocOpen: true
+weight: 1
 ---
 
 # blog2pod
