@@ -1,5 +1,5 @@
 ---
-title: Blog2pod
+title: Announcing Blog2pod
 date: 2024-10-24T19:12:57-05:00
 draft: true
 author:
