@@ -53,6 +53,7 @@ params:
   ShowShareButtons: false
   ShowReadingTime: true
   # disableSpecial1stPost: true
+  disableScrollBarStyle: true
   displayFullLangName: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
