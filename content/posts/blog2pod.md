@@ -6,7 +6,7 @@ description: Setup guide for blog2pod
 summary: Setup guide for blog2pod
 tags: [markdown, code]
 ShowToc: true
-TocOpen: true
+TocOpen: false
 weight: 1
 ---
 
