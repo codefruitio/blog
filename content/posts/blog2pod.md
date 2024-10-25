@@ -5,7 +5,6 @@ author: ["Tyler Plesetz"]
 description: Setup guide for blog2pod
 summary: Setup guide for blog2pod
 tags: [markdown, code]
-categories: [guides]
 ShowToc: true
 TocOpen: true
 weight: 1
