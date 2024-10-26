@@ -93,8 +93,8 @@ params:
     favicon: "static/favicon.ico"
     favicon16x16: "static/favicon16x16.png"
     favicon32x32: "static/favicon32x32.png"
-    #apple_touch_icon: "static/apple-touch-icon.png"
-    #safari_pinned_tab: "static/safari-pinned-tab.svg"
+    apple_touch_icon: "static/apple-touch-icon.png"
+    safari_pinned_tab: "static/safari-pinned-tab.svg"
 
 
   # cover:
